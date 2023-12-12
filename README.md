@@ -3,7 +3,7 @@
 Welcome to my responsive personal portfolio website! This project showcases my skills and projects in a sleek design that works seamlessly on various devices.
 
 ## LIVE DEMO 
-   https://shobhit50.github.io/portfolio/#contact
+   https://shobhit50.github.io/portfolio/
 
 ## Features
 
