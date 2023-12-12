@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio website </title>
+    <link rel="icon" href="/assets/img/teb-icon.svg" type="image/svg+xml">
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Code Ninjas</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <!-- <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li> -->
+                    <li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <!---------------------------------------------------------------------------------------  -->
+            <div class="container">
+                <div class="contant">
+                    <div class="hero-test">
+                        <div class="herodata">
+                            <h1 style="color: #2d2e32;
+                            font-size: clamp(2rem, 5vw, 3.5rem);
+                            line-height: 1.2;
+                                     margin-top: 1rem;
+                            margin-bottom: 0rem; 
+                            margin-bottom: 1rem;">Full-Stack (MERN) Developer</h1>
+                            <p style="        color: #555;
+                            font-family: Mulish,sans-serif;
+                            font-size: clamp(0.1rem, 2vw, 18px);
+                            font-weight: 500;
+                            line-height: 1.6;
+                            margin-bottom: 1rem;
+">Hi, I'm Shobhit, an enthusiastic MERN (MongoDB, Express.js, React, Node.js) Stack Developer
+                                located in <br>Aligarh, Uttar Pradesh, India. 📍
+                            </p>
+                            <span><a aria-label="linkedin" rel="noreferrer" target="_blank"
+                                    href="https://www.linkedin.com/in/shobhit-parashar/"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin">
+                                        <path
+                                            d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z">
+                                        </path>
+                                        <path d="M8 11l0 5"></path>
+                                        <path d="M8 8l0 .01"></path>
+                                        <path d="M12 16l0 -5"></path>
+                                        <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                                    </svg></a><a aria-label="github" rel="noreferrer" target="_blank"
+                                    href="https://github.com/shobhit50"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="tabler-icon tabler-icon-brand-github">
+                                        <path
+                                            d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
+                                        </path>
+                                    </svg></a></span>
+                        </div>
+
+                        <div class="img">
+                            <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path
+                                        d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path
+                                        d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                                    <image class="home__blob-img" x="50" y="60" href="assets/img/shobhit-2copy.png" />
+                                </g>
+                            </svg>
+                        </div>
+
+                    </div>
+                    <div class="skil-test">
+                        <p style="border-right: solid 1px #000000; 
+                        padding-right: 15px; margin-right: 1rem;">Tech Stack </p>
+                        <div class="logos">
+                            <ul>
+                                <!-- https://skillicons.dev/icons?i=react,nodejs    we use this link to show case the skll icon-->
+                                <li><img src="/assets/img/HTML,CSS.svg" alt="skill-icon"></li>
+                                <li><img src="/assets/img/js,bootstrap.svg" alt="skill-icon"></li>
+                                <li><img src="/assets/img/mongodb,express.svg" alt="skill-icon"></li>
+                                <li><img src="/assets/img/react,nodejs.svg" alt="skill-icon"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-------------------------------------------------------------------------------------------  -->
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/Shobhit.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Shobhit</h2>
+                    <p class="about__text">As a Junior MERN (MongoDB, Express.js, React, Node.js) Stack Developer, I
+                        possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Bootstrap, Nodejs,
+                        Expressjs and MongoDb, SQL. I excel in designing and maintaining responsive websites that offer
+                        a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through
+                        writing clean and optimized code and utilizing cutting-edge development tools and techniques. I
+                        am also a team player who thrives in collaborating with cross-functional teams to produce
+                        outstanding web applications.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+
+            <!--  -->
+            <div class="project-section">
+                <div class="container">
+                    <div class="project-container">
+                        <p>portfolio</p>
+                        <h3>Each project is a unique piece of development 🧩</h3>
+                        <div class="project-box">
+                            <div class="project">
+                                <div class="project-img">
+                                    <img src="assets/img/work-4.jpg" alt="">
+                                </div>
+                                <div class="project-info">
+                                    <h4>Wanderlust</h4>
+                                    <p>A WANDERLUST WEB APP IS AN ONLINE PLATFORM THAT FACILITATES USERS IN SHARING
+                                        POSTS ABOUT HOTEL LISTINGS, REVIEWS, AND PRICES. THE APP PROVIDES AN INTERFACE
+                                        FOR BROWSING, COMPARING, AND DISCOVERING HOTELS BASED ON LOCATIONS.</p>
+                                    <div class="project-stack">
+                                        <div class="stack">React</div>
+                                        <div class="stack">Github</div>
+                                    </div>
+
+                                    <div class="links">
+                                        <div class="live"><a href="https://github.com/shobhit50/Wanderlust">Code</a><i
+                                                class="fa-brands fa-github" style="font-size: 24px;"></i></div>
+                                        <div class="live"><a href="https://wunderlust.onrender.com/listings">Live
+                                                Demo</a> <i class="fa-solid fa-up-right-from-square"></i></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- this card for reverse flex  -->
+                        <div class="project-box">
+                            <div class="project project-2">
+                                <div class="project-img">
+                                    <img src="assets/img/work1.jpg" alt="">
+                                </div>
+                                <div class="project-info">
+                                    <h4>Car Rental</h4>
+                                    <p>A car rental website is an online platform that allows users to rent cars for
+                                        personal or
+                                        business use. The website provides an interface for searching, comparing, and
+                                        reserving
+                                        cars.</p>
+                                    <div class="project-stack">
+                                        <div class="stack">React</div>
+                                        <div class="stack">Github</div>
+                                    </div>
+
+                                    <div class="links">
+                                        <div class="live"><a href="">Code</a><i class="fa-brands fa-github"
+                                                style="font-size: 24px;"></i></div>
+                                        <div class="live"><a href="">Live Demo</a> <i
+                                                class="fa-solid fa-up-right-from-square"></i></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- -------------- -->
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <!-- ----------------------------------------------------------------------- -->
+
+            <div class="container" style="justify-content: start; padding-bottom: 4rem;">
+                <div class="contact__content">
+                    <div class="contact__title">
+                        <p>contact</p>
+                        <h3>Don't be shy! Hit me up! 👇</h3>
+                    </div>
+                    <div class="contact__icons">
+                        <div class="contact__icon-box"><span><svg xmlns="http://www.w3.org/2000/svg" width="25"
+                                    height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="tabler-icon tabler-icon-map-search">
+                                    <path d="M11 18l-2 -1l-6 3v-13l6 -3l6 3l6 -3v7.5"></path>
+                                    <path d="M9 4v13"></path>
+                                    <path d="M15 7v5"></path>
+                                    <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                                    <path d="M20.2 20.2l1.8 1.8"></path>
+                                </svg></span>
+                            <div class="contact__info">
+                                <h3>Location</h3>
+                                <p>Aligarh, Utter Pradesh</p>
+                            </div>
+                        </div>
+                        <div class="contact__icon-box"><span><svg xmlns="http://www.w3.org/2000/svg" width="25"
+                                    height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-mail">
+                                    <path
+                                        d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z">
+                                    </path>
+                                    <path d="M3 7l9 6l9 -6"></path>
+                                </svg></span>
+                            <div class="contact__info">
+                                <h3>Mail</h3><a href="mailto:shobhitparashar0@gmail.com">shobhitparashar0@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <!-- <p class="footer__title">Shobhit</p> -->
+        <div class="footer_continer">
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+                <a href="https://github.com/shobhit50" class="footer__icon"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/shobhit-parashar/" class="footer__icon"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p class="footer__copy">&#169; Code Ninjas. All rigths reserved</p>
+        </div>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
