@@ -780,6 +780,11 @@ img {
   flex-direction: row-reverse;
 }
 
+.info2 {
+  padding-left: 1rem;
+  margin-right: 0 !important;
+}
+
 @media screen and (max-width: 1020px) {
   .project {
     flex-direction: column;
@@ -831,6 +836,10 @@ img {
   .project-info h4 {
     font-size: clamp(15px, 2.5vw, 25px);
     margin-bottom: 0.4rem;
+  }
+
+  .info2 {
+    padding-left: 0;
   }
 
   .project-stack {
