@@ -53,4 +53,33 @@ const sr = ScrollReveal({
 sr.reveal('.home__data,  .skills__subtitle, .skills__text', {});  //.about__img,
 sr.reveal('.home__img,  .skills__img', { delay: 400 }); //.about__subtitle, .about__text,
 sr.reveal('.home__social-icon', { interval: 200 });
-sr.reveal('.skills__data, .work__img, .contact__input', { interval: 200 }); 
+sr.reveal('.skills__data, .work__img, .contact__input', { interval: 200 });
+
+
+//  when page is loaded auto request to server https://wunderlust.onrender.com/listings
+//  to keep the server alive
+
+
+// 1. create a function to make a request to server
+var renderServerURL = 'https://wunderlust.onrender.com/listings';
+
+// Creating a new XMLHttpRequest object
+var xhr = new XMLHttpRequest();
+
+// Open a GET request to the render server URL
+xhr.open('GET', renderServerURL, true);
+
+// Set up a function to handle the response (optional)
+// xhr.onreadystatechange = function () {
+//     if (xhr.readyState == 4 && xhr.status == 200) {
+//         // Log a message to the console (optional)
+//         console.log('Keep-alive request sent to render server. Response received:', xhr.responseText);
+//     }
+// };
+
+// Send the request
+xhr.send();
+
+
+
+
